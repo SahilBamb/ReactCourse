@@ -1,0 +1,22 @@
+.Pokegame {
+    align-items: center;
+    text-align: center;
+}
+
+.trainerBox{
+    background-color: lightcoral;
+    width: 500px;
+    display: inline-block;
+    margin: 40px;
+    
+    border: 2px solid gray;
+}
+
+.Pokegame-trainer{
+    transform:scale(1.5
+    )
+}
+
+.WinningAlert{
+    font-size: 50px;
+}
