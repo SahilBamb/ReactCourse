@@ -17,6 +17,10 @@
     color: blue;
 }
 
+.Pokecard-Sprite:hover{
+    transform:scale(1.5)
+}
+
 .Pokecard-Details {
     align-items: center;
     text-align: center;
