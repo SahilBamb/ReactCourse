@@ -16,15 +16,18 @@ class Box extends Component{
     }
 
     changeColor(){
-        const randIdx = Math.floor(Math.random()*this.props.possibleColors.length);
-        const newColor = this.props.possibleColors[randIdx];
+        let newColor = this.state.color;
+        do {
+            let randIdx = Math.floor(Math.random()*this.props.possibleColors.length);
+            newColor = this.props.possibleColors[randIdx];
+        } while (newColor === this.state.color)
         console.log(newColor);
         this.setState({color : newColor});
     }
   render() {
     
   return (
-    <div onClick={this.changeColor} id="square" className={this.state.color}>
+    <div onClick={this.changeColor} id="square" style={{backgroundColor: this.state.color }} className={this.state.color}>
     </div>
   );
   }
