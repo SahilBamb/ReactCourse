@@ -1,0 +1,44 @@
+.LotteryMachine {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    margin: 40px;
+    box-shadow: 10px 5px 5px gray;
+    border: 2px solid gray;
+}
+
+.LotteryMachine-button {
+    
+    margin: 20px;
+    color: aliceblue;
+    background-color: indigo;
+    border-radius: 10%;
+}
+
+.LotteryMachine-button:hover {
+    
+    margin: 20px;
+    color: aliceblue;
+    background-color: purple;
+    border-radius: 10%;
+}
+
+
+.LotteryMachine-balls {
+
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+.LotteryMachine-balls:hover {
+    
+    background-color: #E35335;
+}
